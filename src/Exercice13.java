@@ -13,10 +13,14 @@ public class Exercice13 {
         System.out.println("Enter a last number:");
         z= input.nextInt();
 
-        if ((x>=y) && (x>=z) ) {
+        if (x>=y && x>=z) {
             System.out.println("The biggest number is: " + x);
-        } else  ((x>=y) && (x<z)){
+        }
+        if (x>=y && x<z){
             System.out.println("The biggest number is: " + z);
-        } else ((x<y) &&  ())
+        }
+        if (x<y && y>=z) {
+            System.out.println("The biggest number is: " + y);
+        }
     }
 }
