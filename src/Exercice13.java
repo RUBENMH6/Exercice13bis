@@ -16,10 +16,10 @@ public class Exercice13 {
         if (x>=y && x>=z) {
             System.out.println("The biggest number is: " + x);
         }
-        if (x>=y && x<z){
+        if (z>=x && z>=y){
             System.out.println("The biggest number is: " + z);
         }
-        if (x<y && y>=z) {
+        if (y>=x && y>=z) {
             System.out.println("The biggest number is: " + y);
         }
     }
