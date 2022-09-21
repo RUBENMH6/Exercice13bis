@@ -15,11 +15,9 @@ public class Exercice13 {
 
         if (x>=y && x>=z) {
             System.out.println("The biggest number is: " + x);
-        }
-        if (z>=x && z>=y){
+        } else if (z>=x && z>=y) {
             System.out.println("The biggest number is: " + z);
-        }
-        if (y>=x && y>=z) {
+        } else {
             System.out.println("The biggest number is: " + y);
         }
     }
